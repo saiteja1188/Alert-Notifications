@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  padding: 8px 16px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.notification-content {
+  display: flex;
+  align-items: flex-start;
+}
+.c-icon {
+  height: 30px;
+  width: 30px;
+}
